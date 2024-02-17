@@ -9,7 +9,8 @@ Implement a computer vision architecture to perform element detection and identi
 1. **Data Collection:**
    - Gather a diverse dataset of webpage screenshots containing various elements of interest.
    - link- (https://universe.roboflow.com/uied/ui-element-detect/dataset/6)
-   - 
+   -  Classes names(48): ['Action Bar', 'BackgroundImage', 'Bottom_Navigation', 'Button', 'Button-Outlined', 'Button-filled', 'Call to Action', 'CheckBox', 'CheckedTextView', 'Consistency', 'DropDown', 'EditText', 'Header with Title', 'Horizontal Alignment', 'Icon', 'Image', 'ImageButton', 'ImageView', 'In Focus Popup', 'Input', 'Link', 'List Item', 'Map', 'Meaningful Placeholder Text', 'Modal', 'Multi_Tab', 'On-Off Switch', 'PageIndicator', 'Profile-image', 'ProgressBar', 'RadioButton', 'RatingBar', 'SeekBar', 'Slider', 'Spinner', 'Switch', 'Text Button', 'Text', 'Text-Input', 'TextButton', 'Toggle-Checked', 'Toggle-Unchecked', 'Toolbar', 'UpperTaskBar', 'Video', 'Visual Cue - Horizontal Scroll', 'button', 'link']
+
 | Dataset Name                | Train Images | Test Images | Validation Images |
 |-----------------------------|--------------|-------------|-------------------|
 | UI element Detect Image Dataset | 6,618        | 829         | 865               |
