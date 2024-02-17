@@ -155,6 +155,12 @@ Follow these steps to run the YOLOv8 model:
     ```
 
     Don't forget to replace `data/images/` with the path to your images.
+   
+4. **Results on Test Images **
+![1](https://github.com/VijayRajIITP/website-element-detection/assets/149241319/4d8b8501-0f7f-4f8f-a425-e258c14f414c)
+![2](https://github.com/VijayRajIITP/website-element-detection/assets/149241319/e306df70-008c-42e6-a2b2-ab05980cd6a1)
+![3](https://github.com/VijayRajIITP/website-element-detection/assets/149241319/1f9f5881-0771-4157-aa83-12b9ba3bd83e)
+
 
 ## 📝 Creating a YAML File
 
@@ -182,10 +188,7 @@ Once you’ve created your YAML file, you can train the model:
 ```bash
 python train.py --img 640 --batch 16 --epochs 100 --data my_data.yaml --weights yolov8.pt --nosave --cache
 
-** RESULTS ** 
-![1](https://github.com/VijayRajIITP/website-element-detection/assets/149241319/4d8b8501-0f7f-4f8f-a425-e258c14f414c)
-![2](https://github.com/VijayRajIITP/website-element-detection/assets/149241319/e306df70-008c-42e6-a2b2-ab05980cd6a1)
-![3](https://github.com/VijayRajIITP/website-element-detection/assets/149241319/1f9f5881-0771-4157-aa83-12b9ba3bd83e)
+
 ## Conclusion
 
 The developed object recognition model provides a powerful tool for automating the detection and identification of relevant elements on webpages. By accurately bounding boxes and tagging elements, it facilitates tasks such as webpage analysis, accessibility testing, and user experience optimization. Continual refinement and updates to the model will ensure its effectiveness in keeping pace with evolving web technologies and design trends.
