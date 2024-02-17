@@ -107,6 +107,12 @@ Implement a computer vision architecture to perform element detection and identi
       | Video                           | 829    | 2         | 1      | 0      | 0     | 0        |
 
 
+
+4. **Results on Test Images **
+![1](https://github.com/VijayRajIITP/website-element-detection/assets/149241319/4d8b8501-0f7f-4f8f-a425-e258c14f414c)
+![2](https://github.com/VijayRajIITP/website-element-detection/assets/149241319/e306df70-008c-42e6-a2b2-ab05980cd6a1)
+![3](https://github.com/VijayRajIITP/website-element-detection/assets/149241319/1f9f5881-0771-4157-aa83-12b9ba3bd83e)
+
 # 🚀 Unleashing the Power of YOLOv8 Model
 
 Welcome to the exciting journey of running the YOLOv8 model! This guide will navigate you through the process, ensuring a smooth and successful execution.
@@ -158,12 +164,6 @@ Follow these steps to run the YOLOv8 model:
 
     Don't forget to replace `data/images/` with the path to your images.
    
-4. **Results on Test Images **
-![1](https://github.com/VijayRajIITP/website-element-detection/assets/149241319/4d8b8501-0f7f-4f8f-a425-e258c14f414c)
-![2](https://github.com/VijayRajIITP/website-element-detection/assets/149241319/e306df70-008c-42e6-a2b2-ab05980cd6a1)
-![3](https://github.com/VijayRajIITP/website-element-detection/assets/149241319/1f9f5881-0771-4157-aa83-12b9ba3bd83e)
-
-
 ## 📝 Creating a YAML File
 
 Before training the model, you need to create a YAML file that specifies the paths to your images and labels. Here's an example of what this file might look like:
