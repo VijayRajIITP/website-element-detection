@@ -34,7 +34,7 @@ Implement a computer vision architecture to perform element detection and identi
    - Utilize techniques like data augmentation to increase dataset diversity and prevent overfitting.
 
 6. **Model Evaluation:**
-
+## Validation Data
 | Class              | Images | Instances | Box(P) | R      | mAP50 | mAP50-95 |
 |--------------------|--------|-----------|--------|--------|-------|----------|
 | all                | 865    | 12255     | 0.893  | 0.798  | 0.871 | 0.762    |
@@ -66,6 +66,38 @@ Implement a computer vision architecture to perform element detection and identi
 
 
 
+## Test Data (Unseen to model)
+| Class                           | Images | Instances | Box(P) | R      | mAP50 | mAP50-95 |
+|---------------------------------|--------|-----------|--------|--------|-------|----------|
+| all                             | 829    | 13278     | 0.578  | 0.509  | 0.499 | 0.429    |
+| Action Bar                      | 829    | 2         | 0.206  | 0.5    | 0.255 | 0.155    |
+| BackgroundImage                 | 829    | 65        | 0.73   | 0.923  | 0.933 | 0.913    |
+| Bottom_Navigation               | 829    | 5         | 0.275  | 0.165  | 0.355 | 0.32     |
+| Call to Action                  | 829    | 3         | 0      | 0      | 0.045 | 0.0434   |
+| CheckedTextView                 | 829    | 63        | 0.716  | 0.937  | 0.926 | 0.798    |
+| Consistency                     | 829    | 5         | 0      | 0      | 0.00406 | 0.00284 |
+| EditText                        | 829    | 256       | 0.938  | 0.977  | 0.981 | 0.944    |
+| Header with Title               | 829    | 5         | 0.132  | 0.2    | 0.0822 | 0.0641  |
+| Horizontal Alignment            | 829    | 17        | 0.558  | 0.353  | 0.335 | 0.277    |
+| Icon                            | 829    | 2419      | 0.751  | 0.737  | 0.778 | 0.636    |
+| Image                           | 829    | 2193      | 0.684  | 0.606  | 0.619 | 0.543    |
+| In Focus Popup                  | 829    | 2         | 0      | 0      | 0.00725 | 0.00725|
+| Input                           | 829    | 121       | 0.497  | 0.471  | 0.412 | 0.304    |
+| List Item                       | 829    | 5         | 1      | 0      | 0.00104 | 0.00104|
+| Meaningful Placeholder Text     | 829    | 3         | 0.0784 | 0.333  | 0.0721 | 0.0649  |
+| Modal                           | 829    | 23        | 0.666  | 0.957  | 0.932 | 0.907    |
+| Multi_Tab                       | 829    | 4         | 0.444  | 0.5    | 0.389 | 0.383    |
+| On-Off Switch                   | 829    | 3         | 0.709  | 0.333  | 0.526 | 0.368    |
+| PageIndicator                   | 829    | 138       | 0.978  | 0.971  | 0.994 | 0.832    |
+| Slider                          | 829    | 20        | 0.502  | 0.35   | 0.365 | 0.137    |
+| Spinner                         | 829    | 1         | 1      | 0      | 0     | 0        |
+| Switch                          | 829    | 11        | 0.804  | 0.909  | 0.971 | 0.971    |
+| Text Button                     | 829    | 6165      | 0.727  | 0.689  | 0.721 | 0.594    |
+| Text                            | 829    | 780       | 0.497  | 0.45   | 0.436 | 0.348    |
+| TextButton                      | 829    | 550       | 0.969  | 0.982  | 0.984 | 0.979    |
+| Toolbar                         | 829    | 25        | 0.707  | 0.96   | 0.961 | 0.954    |
+| UpperTaskBar                    | 829    | 392       | 0.614  | 0.946  | 0.899 | 0.472    |
+| Video                           | 829    | 2         | 1      | 0      | 0     | 0        |
 
 
 # 🚀 Unleashing the Power of YOLOv8 Model
