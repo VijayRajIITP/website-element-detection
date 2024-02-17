@@ -34,7 +34,7 @@ Implement a computer vision architecture to perform element detection and identi
    - Utilize techniques like data augmentation to increase dataset diversity and prevent overfitting.
 
 6. **Model Evaluation:**
-  | Class              | Images | Instances | Box(P) | R      | mAP50 | mAP50-95 |
+| Class              | Images | Instances | Box(P) | R      | mAP50 | mAP50-95 |
 |--------------------|--------|-----------|--------|--------|-------|----------|
 | all                | 865    | 12255     | 0.893  | 0.798  | 0.871 | 0.762    |
 | BackgroundImage    | 865    | 114       | 0.879  | 0.912  | 0.967 | 0.941    |
