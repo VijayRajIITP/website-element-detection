@@ -8,7 +8,12 @@ Implement a computer vision architecture to perform element detection and identi
 
 1. **Data Collection:**
    - Gather a diverse dataset of webpage screenshots containing various elements of interest.
-   
+   - link- (https://universe.roboflow.com/uied/ui-element-detect/dataset/6)
+   - 
+| Dataset Name                | Train Images | Test Images | Validation Images |
+|-----------------------------|--------------|-------------|-------------------|
+| UI element Detect Image Dataset | 6,618        | 829         | 865               |
+
 
 2. **Preprocessing:**
    - Resize all images to a standard size to ensure consistency.
