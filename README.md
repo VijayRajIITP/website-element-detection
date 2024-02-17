@@ -8,15 +8,20 @@ Implement a computer vision architecture to perform element detection and identi
 
 1. **Data Collection:**
    - Gather a diverse dataset of webpage screenshots containing various elements of interest.
-   - Annotate the dataset with bounding boxes and corresponding element labels using tools like LabelImg or VGG Image Annotator.
+   
 
 2. **Preprocessing:**
    - Resize all images to a standard size to ensure consistency.
    - Normalize pixel values to improve model performance.
 
 3. **Model Selection:**
-   - Choose a suitable object detection architecture capable of handling multiple classes and providing accurate bounding box predictions.
-   - Popular choices include YOLO (You Only Look Once), SSD (Single Shot Multibox Detector), or Faster R-CNN (Region-based Convolutional Neural Network).
+    ### Why Choose YOLOv8x?
+
+ **Enhanced Detection**: YOLOv8x offers deeper and wider network architecture for improved detection capabilities.
+
+ **High Accuracy**: It achieves superior accuracy, especially in detecting small objects and intricate details.
+
+ **Balanced Performance**: YOLOv8x strikes a balance between accuracy and speed, making it ideal for comprehensive object recognition tasks.
 
 4. **Model Training:**
    - Split the annotated dataset into training, validation, and testing sets.
@@ -29,22 +34,36 @@ Implement a computer vision architecture to perform element detection and identi
    - Utilize techniques like data augmentation to increase dataset diversity and prevent overfitting.
 
 6. **Model Evaluation:**
-   - Calculate performance metrics such as precision, recall, and F1-score to evaluate the model's ability to accurately detect and classify webpage elements.
-   - Visualize model predictions on sample images to assess its effectiveness in bounding box localization and element identification.
+  | Class              | Images | Instances | Box(P) | R      | mAP50 | mAP50-95 |
+|--------------------|--------|-----------|--------|--------|-------|----------|
+| all                | 865    | 12255     | 0.893  | 0.798  | 0.871 | 0.762    |
+| BackgroundImage    | 865    | 114       | 0.879  | 0.912  | 0.967 | 0.941    |
+| Bottom_Navigation  | 865    | 2         | 1      | 0      | 0.663 | 0.663    |
+| Button-Outlined    | 865    | 14        | 0.961  | 1      | 0.995 | 0.885    |
+| Button-filled      | 865    | 16        | 0.954  | 1      | 0.995 | 0.944    |
+| CheckBox           | 865    | 8         | 1      | 0.976  | 0.995 | 0.759    |
+| CheckedTextView    | 865    | 155       | 0.883  | 0.723  | 0.859 | 0.731    |
+| DropDown           | 865    | 3         | 0.92   | 1      | 0.995 | 0.963    |
+| EditText           | 865    | 434       | 0.96   | 0.891  | 0.981 | 0.922    |
+| Icon               | 865    | 2194      | 0.952  | 0.945  | 0.953 | 0.833    |
+| Image              | 865    | 1593      | 0.95   | 0.887  | 0.958 | 0.93     |
+| Modal              | 865    | 54        | 0.923  | 0.944  | 0.985 | 0.959    |
+| Multi_Tab          | 865    | 2         | 0      | 0      | 0.063 | 0.063    |
+| PageIndicator      | 865    | 291       | 0.981  | 0.962  | 0.987 | 0.82     |
+| Profile-image      | 865    | 4         | 0.973  | 1      | 0.995 | 0.681    |
+| Spinner            | 865    | 2         | 1      | 0      | 0     | 0        |
+| Switch             | 865    | 36        | 0.984  | 0.917  | 0.932 | 0.896    |
+| Text Button        | 865    | 5678      | 0.975  | 0.931  | 0.978 | 0.888    |
+| Text-Input         | 865    | 7         | 0.954  | 1      | 0.995 | 0.927    |
+| TextButton         | 865    | 901       | 0.984  | 0.951  | 0.989 | 0.981    |
+| Toggle-Checked     | 865    | 4         | 0.652  | 1      | 0.995 | 0.824    |
+| Toggle-Unchecked   | 865    | 6         | 0.9    | 0.667  | 0.913 | 0.722    |
+| Toolbar            | 865    | 41        | 0.729  | 0.707  | 0.793 | 0.778    |
+| UpperTaskBar       | 865    | 669       | 0.919  | 0.77   | 0.928 | 0.482    |
+| link               | 865    | 27        | 0.992  | 0.963  | 0.993 | 0.687    |
 
-## Deployment
 
-1. **Model Integration:**
-   - Integrate the trained model into web development frameworks or browser extensions to enable real-time element detection on live webpages.
-   - Provide user-friendly interfaces for interacting with the model and visualizing detected elements.
 
-2. **Testing and Validation:**
-   - Conduct extensive testing on various webpages to ensure the model's robustness and accuracy across different layouts and designs.
-   - Collect user feedback and iterate on the model based on performance observations and suggestions.
-
-3. **Documentation:**
-   - Document model architecture, training procedures, and deployment instructions for future reference and reproducibility.
-   - Include examples and tutorials to guide users in effectively utilizing the model for webpage element recognition tasks.
 
 
 
