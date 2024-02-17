@@ -113,6 +113,8 @@ Implement a computer vision architecture to perform element detection and identi
 ![2](https://github.com/VijayRajIITP/website-element-detection/assets/149241319/e306df70-008c-42e6-a2b2-ab05980cd6a1)
 ![3](https://github.com/VijayRajIITP/website-element-detection/assets/149241319/1f9f5881-0771-4157-aa83-12b9ba3bd83e)
 
+
+# How to run yolov8 from command prompt 
 # 🚀 Unleashing the Power of YOLOv8 Model
 
 Welcome to the exciting journey of running the YOLOv8 model! This guide will navigate you through the process, ensuring a smooth and successful execution.
